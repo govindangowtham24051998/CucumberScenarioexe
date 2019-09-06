@@ -1,0 +1,89 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T06:54:35.869Z",
+        "line": 24,
+        "name": "Users moves to the cart without adding any item",
+        "description": "",
+        "id": "testmeapp;users-moves-to-the-cart-without-adding-any-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21900637400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Alex has registerd into TestMEapp",
+            "match": {
+              "location": "product.alex_has_registerd_into_TestMEapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4939172200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Alex search for product Headphones",
+            "match": {
+              "location": "product.alex_search_for_product_Headphones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3253665800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Try to proceed to checkout without adding item in cart",
+            "match": {
+              "location": "product.try_to_proceed_to_checkout_without_adding_item_in_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663666700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "TestMeApp doesnt display the cart icon",
+            "match": {
+              "location": "product.testmeapp_doesnt_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "TestMEapp",
+    "description": "  I want to use this template for my feature file",
+    "id": "testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:product/product.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T06:43:34.403Z",
+        "line": 13,
+        "name": "Login Check",
+        "description": "",
+        "id": "testmeapp-login;login-check;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14887192500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters in Homepage for work",
+            "match": {
+              "location": "loginn.user_enters_in_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5174139000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters SignIn button",
+            "match": {
+              "location": "loginn.user_enters_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140450900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 20
+                }
+              ],
+              "location": "loginn.user_enter_userName_AlexUser(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167418400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "loginn.user_enter_Password_Alex(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2751992200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "loginn.user_clicks_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "TestMeApp Login",
+    "description": "  this is Template for login",
+    "id": "testmeapp-login",
+    "keyword": "Feature",
+    "uri": "classpath:scenario2/login.feature",
+    "tags": []
+  }
+]

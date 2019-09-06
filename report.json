@@ -1,0 +1,293 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T06:27:11.105Z",
+        "line": 23,
+        "name": "Registration",
+        "description": "",
+        "id": "testmeapp-registration;registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22332921200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters in Homepage",
+            "match": {
+              "location": "Register.user_enters_in_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4603842800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks the SignUp button",
+            "match": {
+              "location": "Register.user_clicks_the_SignUp_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 281216700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters Username \"Nisitharowewoweoo\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nisitharowewoweoo\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Register.user_enters_Username_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176924000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters firstname \"Nishiwer\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nishiwer\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Register.user_enters_firstname_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 211093300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters lastname \"Nishieeer\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nishieeer\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Register.user_enters_lastname_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218362200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enters password \"Nishi\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nishi\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Register.user_enters_password_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163452000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters confirmpassword \"Nishi\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nishi\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Register.user_enters_confirmpassword_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148035900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters gender \"Male\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.user_enters_gender_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263820900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enters email \"Nishi@mail.com\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nishi@mail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Register.user_enters_e_mail_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 222107700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enters mobilenumber \"8775454878\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8775454878\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.user_enters_mobilenumber_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243069700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters dob \"10/12/1785\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10/12/1785\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Register.user_enters_dob_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238345300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enters address \"Nishi in andra\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nishi in andra\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Register.user_enters_address_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95017700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User enters security question \"What is your birth place?\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What is your birth place?\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Register.user_enters_security_question_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189791200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User enters answer \"Nishi\" in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nishi\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.user_enters_answer_in_field(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356190600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks Register button",
+            "match": {
+              "location": "Register.user_clicks_Register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2515714500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Login page is diplayed",
+            "match": {
+              "location": "Register.login_page_is_diplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TestMeApp Registration",
+    "description": "  this is Template ",
+    "id": "testmeapp-registration",
+    "keyword": "Feature",
+    "uri": "classpath:Cucumber/casestudy/Register.feature",
+    "tags": []
+  }
+]
